@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Hacking the Hack</title>
+    
+    
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Hacking the Hack</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="section" onclick="window.location='#home'">
+        <div class="logo">
+            <div class="icon">💾</div>
+            Hacking the Hack
+            <div class="binary-code">101010 110011 001001</div>
+            <div class="tagline">Unleash Your Coding Skills</div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <p>We offer a wide range of services to help you enhance your coding and hacking skills:</p>
+        <div class="services-container">
+            <ul class="services-list">
+                <li class="service-item" onclick="showCourses()">
+                    <h3>Online Courses</h3>
+                    <p>Comprehensive online courses covering topics like web development, cybersecurity, and data science. Learn at your own pace with video lectures, quizzes, and assignments.</p>
+                </li>
+                <li class="service-item" onclick="window.location='#services'">
+                    <h3>Workshops and Bootcamps</h3>
+                    <p>Intensive workshops and bootcamps designed to boost your skills in a short amount of time. Hands-on learning experiences that prepare you for real-world challenges.</p>
+                </li>
+            </ul>
+            <ul class="services-list">
+                <li class="service-item" onclick="window.location='#services'">
+                    <h3>Personalized Coaching</h3>
+                    <p>One-on-one coaching sessions tailored to your specific goals and needs. Get expert guidance, feedback, and support as you navigate your learning journey.</p>
+                </li>
+                <li class="service-item" onclick="window.location='#services'">
+                    <h3>Community Forums and Resources</h3>
+                    <p>Access to exclusive community forums where you can connect with peers, share knowledge, and find valuable resources. Stay updated with the latest trends in technology.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="course-section">
+        <h2>Online Courses</h2>
+        <div class="course">
+            <h3>Web Development Bootcamp</h3>
+            <p>Learn the fundamentals of web development including HTML, CSS, and JavaScript.</p>
+            <p>Price: $199</p>
+            <button onclick="alert('Enrollment for Web Development Bootcamp!')">Enroll Now</button>
+        </div>
+        <div class="course">
+            <h3>Cybersecurity Basics</h3>
+            <p>Understand the essentials of cybersecurity and how to protect yourself online.</p>
+            <p>Price: $149</p>
+            <button onclick="alert('Enrollment for Cybersecurity Basics!')">Enroll Now</button>
+        </div>
+        <div class="course">
+            <h3>Data Science Introduction</h3>
+            <p>Dive into the world of data science with Python and data analysis techniques.</p>
+            <p>Price: $249</p>
+            <button onclick="alert('Enrollment for Data Science Introduction!')">Enroll Now</button>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="about-container">
+            <div class="about-content" onclick="window.location='#about'">
+                <h2>About Us</h2>
+                <p>At Hacking the Hack, we are dedicated to empowering individuals through technology. Our mission is to provide quality education and resources in coding and cybersecurity.</p>
+            </div>
+            <div class="about-content" onclick="window.location='#about'">
+                <h2>Our Vision</h2>
+                <p>We envision a world where everyone has access to the tools and knowledge necessary to succeed in the digital age.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="contact-container">
+            <div class="contact-content" onclick="window.location='#contact'">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or would like to learn more about our services, please reach out!</p>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="4" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-content" onclick="window.location='#contact'">
+                <h2>Follow Us</h2>
+                <p>Stay connected with us on social media for updates and news:</p>
+                <div class="social-icons">
+                    <a href="https://twitter.com/@HackingtheeHack" target="">𝕏</a>
+                    <a href="https://www.facebook.com/@HackingtheHack" target="_blank">ⓕ</a>
+                    <a href="https://www.tiktok.com/@HackingtheHack" target="_blank">♪</a>
+                    <a href="https://www.youtube.com/@HackingtheHack" target="_blank">▶</a>
+                    <a href="https://www.instagram.com/HackingtheHack" target="_blank">🅾</a>
+                    <a href="https://www.linkedin.com/in/@HackingtheHack" target="_blank">🇮🇳</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hacking the Hack. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
